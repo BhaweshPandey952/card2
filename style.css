@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background: #7f7fd5;
+  background: -webkit-linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+  background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+}
+
+.box {
+  height: 70%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  align-items: center;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 20px black;
+}
+
+.box h2 {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#info {
+  font-size: 1.05em;
+  width: 75%;
+  text-align: center;
+}
+
+#img1 {
+  width: 100%;
+  height: 30%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#plan {
+  width: 80%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: #faaca8;
+  background-image: linear-gradient(19deg, #faaca8 0%, #ddd6f3 100%);
+}
+
+#image_and_plan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6%;
+}
+
+#plan_and_price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#img2 {
+  width: 10%;
+  height: 70%;
+}
+
+#payment_button {
+  width: 70%;
+  height: 9%;
+  font-size: 1.1rem;
+  background-color: #05032c;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0px 0px 20px black;
+}
+
+#cancel_button {
+  color: black;
+  background-color: white;
+  border: none;
+  font-size: 1em;
+  border-radius: 20px;
+}
